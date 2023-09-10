@@ -1,0 +1,25 @@
+.contact-section {
+  background-color: rgb(57, 4, 107);
+  color: white;
+  padding: 100px 0px 140px 0px;
+}
+.form-class {
+  margin: 20px 80px;
+}
+.heading {
+  font-weight: bold;
+  font-family: initial;
+}
+.btn-class {
+  width: 100%;
+}
+.input-field {
+  background-color: transparent !important;
+  color: rgba(170, 165, 165, 0.892) !important;
+}
+.error-message {
+  color: rgb(243, 71, 71);
+}
+.option{
+    background-color: rgb(57, 4, 107);
+}

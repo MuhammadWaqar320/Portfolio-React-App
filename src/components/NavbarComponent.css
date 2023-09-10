@@ -1,0 +1,14 @@
+.navbar-class {
+  background-color: black;
+}
+.soical-media-icons {
+  margin-left: 40px;
+}
+.menu-link {
+  text-decoration: none;
+  color: white;
+}
+.menu-link:hover {
+  text-decoration: none;
+  color: wheat;
+}

@@ -1,0 +1,40 @@
+.profile-main-section {
+  height: 700px;
+  background-color: #035e70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+}
+.name-class {
+  color: white;
+  margin-top: 10px;
+}
+.heading{
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+}
+@media screen and (max-width: 480px) {
+.heading{
+    font-size: 24px;
+}
+}
