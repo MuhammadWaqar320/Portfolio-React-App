@@ -13,6 +13,16 @@
 .btn-class {
   width: 100%;
 }
+.spinner-border {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  margin-left: 5px !important;
+}
+.btn-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .input-field {
   background-color: transparent !important;
   color: rgba(170, 165, 165, 0.892) !important;
@@ -20,6 +30,6 @@
 .error-message {
   color: rgb(243, 71, 71);
 }
-.option{
-    background-color: rgb(57, 4, 107);
+.option {
+  background-color: rgb(57, 4, 107);
 }

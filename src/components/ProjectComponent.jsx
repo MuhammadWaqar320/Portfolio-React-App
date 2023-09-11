@@ -44,7 +44,6 @@ const ProjectComponent = () => {
             <Card
               key={item.id}
               style={{
-                height: "520px",
                 margin: "11.5px 0px",
                 border: "rgb(0, 72, 0)",
                 borderRadius: "15px",

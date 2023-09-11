@@ -51,6 +51,7 @@ const Header = () => {
           variant="dark"
           expand={expand}
           className="navbar-class"
+          fixed="top"
         >
           <Container fluid>
             <Navbar.Brand className="soical-media-icons">
@@ -77,7 +78,7 @@ const Header = () => {
               <Offcanvas.Body>
                 <Nav className="flex-grow-1"></Nav>
                 <Nav>
-                  <Nav.Link style={{ color: "white" }}>
+                  <Nav style={{ color: "white", marginRight: "10px" }}>
                     <a
                       href="#projects"
                       className="menu-link"
@@ -88,8 +89,8 @@ const Header = () => {
                     >
                       Projects
                     </a>
-                  </Nav.Link>
-                  <Nav.Link style={{ color: "white" }}>
+                  </Nav>
+                  <Nav style={{ color: "white", marginRight: "50px" }}>
                     <a
                       href="#projects"
                       className="menu-link"
@@ -100,7 +101,7 @@ const Header = () => {
                     >
                       Contact Me
                     </a>
-                  </Nav.Link>
+                  </Nav>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
